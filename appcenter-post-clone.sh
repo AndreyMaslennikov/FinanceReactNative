@@ -3,10 +3,8 @@
 echo "Current node version"
 node -v
 
-echo "Available"
-npm config delete prefix
-. "$HOME/.nvm/nvm.sh"
-nvm use v8.12.0
-nvm alias default v8.12.0
-cat "$HOME/.nvm/alias/default"
+echo "Install node with brew"
+brew install node
+
+echo "New node version"
 node -v
