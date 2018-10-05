@@ -5,5 +5,6 @@ node -v
 
 echo "Available"
 . "$HOME/.nvm/nvm.sh"
-nvm ls
+nvm use v8.12.0
+nvm alias default v8.12.0
 
