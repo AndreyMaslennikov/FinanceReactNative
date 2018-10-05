@@ -8,3 +8,6 @@ brew install node
 
 echo "New node version"
 node -v
+
+echo "env"
+set
